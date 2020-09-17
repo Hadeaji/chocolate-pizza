@@ -57,7 +57,7 @@ nav li {
 .hr {
     height: 10px;
     width: 96%;
-    background-image: url(/img/hr-img.png);
+    background-image: url(img/hr-img.png);
     margin-left: 2%;
     margin-right: 2%;
 }
