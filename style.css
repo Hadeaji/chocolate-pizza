@@ -57,7 +57,7 @@ nav li {
 .hr {
     height: 10px;
     width: 96%;
-    background-image: url(/img/hr-img.png);
+    background-image: url(img/hr-img.png);
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -134,7 +134,7 @@ h2 {
 
 #cball {
     display: inline-block;
-    background-image: url(/img/list-bg.png);
+    background-image: url(img/list-bg.png);
     width: 80%;
     height: 200px;
     background-repeat: no-repeat;
