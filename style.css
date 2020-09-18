@@ -276,3 +276,6 @@ footer div p {
 #space {
     margin-top: 20px;
 }
+
+input:checked + label {
+ text-decoration: line-through;}
