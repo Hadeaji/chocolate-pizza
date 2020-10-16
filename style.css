@@ -142,11 +142,10 @@ h2 {
     display: inline-block;
     background-image: url(img/list-bg.png);
     width: 80%;
-    height: 200px;
+    height: 270px;
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 8%;
-    box-shadow: 5px 5px 3px gray;
     margin-bottom: 50px;
     margin-top: 50px;
 }
@@ -175,23 +174,10 @@ footer {
     z-index: 2;
 }
 
-h3 {
-    display: inline-block;
-    font-size: x-large;
-    margin-bottom: 0px;
-    height: 15px;
-    line-height: 40px;
-    margin-top: 8px;
-}
 
 #vanp {
-    font-size: x-small;
-    padding: 0px;
-    height: 15px;
-    line-height: 0px;
     color: gray;
-    margin-bottom: 30px;
-}
+ }
 
 .element {
     all: none;
@@ -199,13 +185,17 @@ h3 {
 
 #vanbot {
     display: inline-block;
-    float: right;
-    background-color: rgb(214, 86, 86);
+    position: relative;
+    background-color: rgb(180, 102, 78);
     color: whitesmoke;
-    box-decoration-break: none;
+    text-decoration: none;
+    vertical-align: top;
     height: 40px;
     font-family: monospace;
-    width: 20%;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 200px;
+    border-style: none;
 }
 
 footer {
@@ -222,32 +212,23 @@ footer {
 }
 
 h3 {
-    display: inline-block;
     font-size: x-large;
-    margin-bottom: 0px;
     height: 15px;
-    line-height: 40px;
-    margin-top: 8px;
 }
 
-footer div p {
-    font-size: x-small;
-    padding: 0px;
-    height: 15px;
-    line-height: 0px;
-    color: gray;
-}
 
 #vanp {
     display: inline-block;
     position: relative;
-    line-height: 90px;
+    line-height: 70px;
 }
 
 #last {
+    color: gray;
     display: inline-block;
     width: 100%;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 #fhr {
@@ -266,6 +247,7 @@ footer div p {
 
 #ll {
     margin-bottom: 0;
+    vertical-align: middle;
 }
 
 .no {
@@ -279,3 +261,9 @@ footer div p {
 
 input:checked + label {
  text-decoration: line-through;}
+
+#det {
+    display: inline-block;
+    height: 68px;
+    vertical-align: top;
+}
